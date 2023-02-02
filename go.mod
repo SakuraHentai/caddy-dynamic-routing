@@ -1,4 +1,4 @@
-module guard
+module caddy_dynamic_routing
 
 go 1.19
 
