@@ -1,0 +1,27 @@
+{
+  auto_https off
+  order routing before reverse_proxy
+}
+
+example.com {
+  routing {
+    host 127.0.0.1
+    port 6379
+    db 0
+    prefix site
+    tokenKey token
+    domain {{token}}.test.com
+  }
+
+  tls {
+    get_certificate redis {
+      host 127.0.0.1
+      port 6379
+      db 0
+      prefix site
+      certKey cert
+    }
+  }
+
+  reverse_proxy http://127.0.0.1:3000
+}
