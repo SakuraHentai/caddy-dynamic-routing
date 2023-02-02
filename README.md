@@ -2,7 +2,7 @@
 
 ### Usage
 
-xcaddy build --with=https://github.com/SakuraHentai/caddy-dynamic-routing
+xcaddy build --with github.com/SakuraHentai/caddy-dynamic-routing
 
 ### Caddyfile Example
 
