@@ -1,4 +1,4 @@
-module caddy_dynamic_routing
+module github.com/SakuraHentai/caddy-dynamic-routing
 
 go 1.19
 

@@ -1,4 +1,4 @@
-package caddy_dynamic_routing
+package guard
 
 // inspired by caddyserver/caddy/modules/caddytls/certmanagers.go
 import (

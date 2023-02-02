@@ -1,4 +1,4 @@
-package caddy_dynamic_routing
+package guard
 
 import (
 	"context"
