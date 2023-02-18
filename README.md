@@ -16,7 +16,7 @@ Run `./build.sh`
 
 Use `Hash` with key `${prefix}:${host}`, and field by `tokenKey` & `certKey`
 
-#### Motivation
+### Motivation
 
 In the Saas business model, a tenant identifies their site by token, for example `abc.example.com`.
 
