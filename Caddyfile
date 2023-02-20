@@ -10,6 +10,7 @@ example.com {
     db 0
     prefix site
     tokenKey token
+    # rewrite example.com -> ${token}.test.com
     domain {{token}}.test.com
   }
 

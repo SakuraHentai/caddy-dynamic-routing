@@ -2,9 +2,11 @@
 
 ### Usage
 
+```sh
 xcaddy build --with github.com/SakuraHentai/caddy-dynamic-routing
+```
 
-### Caddyfile Example
+### Syntax Example
 
 See [Caddyfile](Caddyfile)
 
